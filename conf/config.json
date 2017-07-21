@@ -1,0 +1,5 @@
+{
+  "port": 7000,
+  "webpackDevPort": 8080,
+  "useSSR": false
+}

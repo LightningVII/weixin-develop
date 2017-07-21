@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "sourceMap": true,
+    "module": "commonjs",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/vue/types/",
+      "./src/definitions/"
+    ],
+    "types": [
+      "node",
+      "jquery",
+      "Vue"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}

@@ -1,0 +1,12 @@
+{
+    "apps": [{
+        "watch": ["app"],
+        "ignore_watch": ["node_modules", "client/img"],
+        "watch_options": {
+            "followSymlinks": false
+        },
+        "name": "app",
+        "script": "app.js",
+        "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }]
+}
